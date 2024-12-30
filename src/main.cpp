@@ -50,5 +50,8 @@ int main() {
     else if (tokens[0]=="exit"){
       exit(0);
     }
+    else{
+      std::cout<<tokens[0]<<": command not found "<<std::endl;
+    }
   }
 }
